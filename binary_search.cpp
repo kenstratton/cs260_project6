@@ -64,7 +64,7 @@ bool add(int number){
     new_node->number = number;
 
    // * 2
-   if (root == NULL) {
+   if (isEmpty()) {
        root = new_node; 
        return true; // * 4
    }
